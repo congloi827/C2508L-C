@@ -65,12 +65,11 @@ scanf("%f", &diem);
 if(diem >= 0 && diem <= 10){
 	if (diem >= 9){
 	printf(" xuat sac :");
-}else if (diem >8){
-
+}else if (diem >= 8){
 printf("hoc sinh gioi: ");
-} else if (diem >7){
+} else if (diem >= 7){
 	printf("hoc sinh kha:");
-}else if (diem >6){
+}else if (diem >= 6){
 	printf("hocsinh trungbinh");
 } else if(diem >= 5){
 	printf("trungbinh");
@@ -85,3 +84,4 @@ printf("hoc sinh gioi: ");
 	
 	return 0;
 }
+
